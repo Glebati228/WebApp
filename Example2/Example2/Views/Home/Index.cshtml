@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2> Каталог футболистов</h2>
+
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Age
+            </th>
+            <th>
+                Team
+            </th>
+        </tr>
+        @foreach (var item in ViewBag.players)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Age
+                </td>
+                <td>
+                    @item.Team.Name
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+@section Footer
+    {
+    <p> Fooball for Gays - @DateTime.Now.Year</p>
+    }

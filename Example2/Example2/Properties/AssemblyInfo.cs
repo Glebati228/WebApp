@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется следующим образом
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных с этой сборкой.
-[assembly: AssemblyTitle("Example")]
+[assembly: AssemblyTitle("Example2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Example")]
+[assembly: AssemblyProduct("Example2")]
 [assembly: AssemblyCopyright("© HP Inc., 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для ID библиотеки типов typelib, если этот проект видим для COM
-[assembly: Guid("275fbae6-03e7-43ec-9b6d-884526675a31")]
+[assembly: Guid("00dd2a42-d795-4a29-8f1c-07300f34e77d")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
